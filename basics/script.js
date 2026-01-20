@@ -14,3 +14,8 @@ else{
     console.log("Not entering to the page")
 }
 console.log("Your number is:" +a)
+
+document.title= "Hello i am very good"
+
+
+document.body.style.backgroundColor= "lightblue" //this code adds inline css in html file
