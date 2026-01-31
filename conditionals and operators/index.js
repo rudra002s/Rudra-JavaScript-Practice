@@ -15,6 +15,9 @@ let age=18;
 // if(age>18){
 //     console.log("you can drive");
 // }
+
+// == is for equal to like it checks the value but === checks the value and its type
+
 if(age==18){ //comparison operators
     console.log("you can drive");
 }
