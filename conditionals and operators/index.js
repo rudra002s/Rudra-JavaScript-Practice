@@ -20,6 +20,8 @@ let age=18;
 
 //&& for both condition, || will work for any one condition as well
 
+/* this hee is being used for multiline comments but it is less used */
+
 if(age==18){ //comparison operators
     console.log("you can drive");
 }
