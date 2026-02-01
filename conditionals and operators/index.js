@@ -1,6 +1,6 @@
 console.log("Hello i am rudra")
 
-let age=18;
+let age=0;
 // let grace=2;
 
 // age +=grace //assignment operator
@@ -24,6 +24,14 @@ let age=18;
 
 if(age==18){ //comparison operators
     console.log("you can drive");
+}
+
+else if(age==0){
+    console.log("are you kidding");
+}
+
+else if(age==0){
+    console.log("are you again kidding");
 }
 
 else{
