@@ -18,6 +18,8 @@ let age=18;
 
 // == is for equal to like it checks the value but === checks the value and its type
 
+//&& for both condition, || will work for any one condition as well
+
 if(age==18){ //comparison operators
     console.log("you can drive");
 }
