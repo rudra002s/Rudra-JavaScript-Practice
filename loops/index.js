@@ -54,6 +54,7 @@ console.log("i am learning loops")
 //     console.log(char)
 // }
 
+//CODE TO PRINT NUMBERS TILL N
 //WHILE LOOP
 // let i=5;
 // while (i<7) {
