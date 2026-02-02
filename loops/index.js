@@ -61,8 +61,16 @@ console.log("i am learning loops")
 //     i++
 // }
 
-let i=0;
-while (i<9) {
+// let i=0;
+// while (i<9) {
+//     console.log(i)
+//     i++
+// }
+
+//DO WHILE LOOP this is same as while loop but yeh shuru m rrun hojaega because yeh condition ast m check krra h
+
+let i=10;
+do {
     console.log(i)
     i++
-}
+} while (i<10);
