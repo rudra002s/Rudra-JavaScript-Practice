@@ -1,6 +1,6 @@
 console.log("Hello i am rudra")
 
-let age=0;
+let age = 0;
 // let grace=2;
 
 // age +=grace //assignment operator
@@ -22,19 +22,19 @@ let age=0;
 
 /* this hee is being used for multiline comments but it is less used */
 
-if(age==18){ //comparison operators
+if (age == 18) { //comparison operators
     console.log("you can drive");
 }
 
-else if(age==0){
+else if (age == 0) {
     console.log("are you kidding");
 }
 
-else if(age==0){
+else if (age == 0) {
     console.log("are you again kidding");
 }
 
-else{
+else {
     console.log("you cannot drive");
 }
 
@@ -45,3 +45,8 @@ else{
 // else{
 //     console.log("you cannot drive");
 // }
+
+let a = 6;
+let b = 8;
+let c = a > b ? (a - b) : (b-a); // yaha par ? is if and : and yeh hoga else k liye hai 
+console.log(c);
