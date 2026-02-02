@@ -1,4 +1,7 @@
+function rudra(name) {
+    console.log("hello " + name + " you are best")
+    console.log("hello " + name + " you are very good")
+}
 
-console.log("Rudra is best")
-console.log("Rudra has good iq")
-console.log("Rudra ")
+rudra("ritu")
+rudra("aman")
