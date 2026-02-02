@@ -1,6 +1,6 @@
 console.log("i am learning loops")
 
-let a = 1;
+// let a = 1;
 // console.log(a)
 // console.log(a+1)
 // console.log(a+2)
@@ -16,40 +16,53 @@ let a = 1;
 // do while loop
 
 //FOR LOOP
-for (let i = 0; i < 500; i++) {
-    console.log(a + i)
-}
+// for (let i = 0; i < 500; i++) {
+//     console.log(a + i)
+// }
 
 // in this we first initialise then put condition then it prints in console log
 
 // FOR IN LOOP is used for key and elements
 
-let obj = {
-    name: "Rudra",
-    role: "student",
-    college: "usar"
-}
+// let obj = {
+//     name: "Rudra",
+//     role: "student",
+//     college: "usar"
+// }
 
-//to print both the key and elements
-for (const key in obj) {
-    const element = obj[key];
-    console.log(key, element)
-}
+// //to print both the key and elements
+// for (const key in obj) {
+//     const element = obj[key];
+//     console.log(key, element)
+// }
 
-//to print key
-for (const key in obj) {
-    const element = obj[key];
-    console.log(key)
-}
+// //to print key
+// for (const key in obj) {
+//     const element = obj[key];
+//     console.log(key)
+// }
 
-//to print elements
-for (const key in obj) {
-    const element = obj[key];
-    console.log(element)
-}
+// //to print elements
+// for (const key in obj) {
+//     const element = obj[key];
+//     console.log(element)
+// }
 
-//FOR OF LOOP is used in arrays
+// //FOR OF LOOP is used in arrays
 
-for (const char of "Rudra") {
-    console.log(char)
+// for (const char of "Rudra") {
+//     console.log(char)
+// }
+
+//WHILE LOOP
+// let i=5;
+// while (i<7) {
+//     console.log(i)
+//     i++
+// }
+
+let i=0;
+while (i<9) {
+    console.log(i)
+    i++
 }
