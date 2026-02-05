@@ -25,3 +25,10 @@ console.log(b.toUpperCase())
 let c="AMAN"
 console.log(c.toLowerCase())
 console.log(b.length)
+
+//in slicing last ki digit will not be included
+
+console.log(b.slice(0,2))
+console.log(b.slice(1,3))
+console.log(b.slice(0))
+console.log(b.slice(1))
