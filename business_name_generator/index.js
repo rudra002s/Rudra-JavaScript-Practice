@@ -14,3 +14,16 @@
 // bros 
 // limited 
 // hub 
+
+let adjRandom=Math.random()
+let adjective;
+
+if(adjRandom<0.33){
+    adjective="crazy"
+}
+if(adjRandom<0.66){
+    adjective="amazing"
+}
+else{
+    adjective="fire"
+}
