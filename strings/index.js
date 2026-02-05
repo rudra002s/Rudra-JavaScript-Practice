@@ -16,4 +16,12 @@ friend = "Ritu"
 
 console.log("His real_name is " + real_name + " and his friend's name is " + friend) //old way
 
+//TEMPLATE LITERALS
+
 console.log(`His name is ${real_name} and his friend's name is ${friend}`) //this is known as string interpolation
+
+let b="aman"
+console.log(b.toUpperCase())
+let c="AMAN"
+console.log(c.toLowerCase())
+console.log(b.length)
