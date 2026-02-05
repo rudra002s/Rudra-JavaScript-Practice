@@ -21,9 +21,25 @@ let adjective;
 if(adjRandom<0.33){
     adjective="crazy"
 }
-if(adjRandom<0.66){
+ else if(adjRandom<0.66){
     adjective="amazing"
 }
 else{
     adjective="fire"
 }
+console.log(adjective)
+
+let shopRandom=Math.random()
+let shop_name;
+
+if(shopRandom<0.33){
+    shop_name="engine"
+}
+ else if(shopRandom<0.66){
+    shop_name="food"
+}
+else{
+    shop_name="garments"
+}
+console.log(shop_name)
+
