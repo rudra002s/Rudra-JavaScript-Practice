@@ -13,3 +13,25 @@ console.log(arr[2])
 console.log(arr[3])
 
 arr[0]=555; //here it changed the element of array
+
+console.log(arr.toString()) //converts array to string
+
+console.log(arr.join(" and ")) //replaces comma with the word inside ""
+
+console.log(arr.pop()) //pops element from last
+
+console.log(arr.push("Rudra")) //adds elements to end of array
+
+console.log(arr.push("1902")) //adds at the end
+console.log(arr)
+
+console.log(arr.shift()) //removes first element
+
+console.log(arr.unshift("Ram")) //adds at the start
+
+//to combine arrays
+let a1=[1,2,3]
+let a2=[4,5,6]
+let a3=[7,8,9]
+let a4=a1.concat(a2,a3)
+console.log(a4)
