@@ -1,4 +1,4 @@
-//JAVASCRIPT IS ASYNCHRONOUS FUNCTION
+//JAVASCRIPT IS ASYNCHRONOUS 
 
 console.log("Rudra is the best")
 console.log("Ritu is the best")
@@ -12,3 +12,17 @@ setTimeout(() => {
 }, 0);
 
 console.log("The End")
+
+
+const callback = (arg) => {
+    console.log(arg)
+}
+
+const loadSCript = (src, callback) => {
+    let sc = document.createElement("script")
+    sc.src = src
+    sc.onload = callback("Rudra")
+    document.head.append(sc)
+}
+
+loadSCript("https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js",callback)
