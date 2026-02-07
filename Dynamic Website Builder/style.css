@@ -1,4 +1,16 @@
-.card{
+.card {
     display: flex;
     border: 2px solid black;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 200px;
+}
+
+.text h1,
+p {
+    padding-top: 2px 0;
 }
