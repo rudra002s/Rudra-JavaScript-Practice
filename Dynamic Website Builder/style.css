@@ -16,10 +16,12 @@
 p {
     padding-top: 2px 0;
 }
-.img{
+
+.img {
     position: relative;
 }
-.capsule{
+
+.capsule {
     position: absolute;
     z-index: 12;
     bottom: 5px;
