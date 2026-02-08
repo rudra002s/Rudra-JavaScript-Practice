@@ -13,16 +13,19 @@ setTimeout(() => {
 
 console.log("The End")
 
-
-const callback = (arg) => {
+const fn = () => {
+    console.log("Nothing")
+}
+const callback = (arg, fn) => {
     console.log(arg)
+    fn()
 }
 
 const loadSCript = (src, callback) => {
     let sc = document.createElement("script")
     sc.src = src
-    sc.onload = callback("Rudra")
+    sc.onload = callback("Rudra",fn)
     document.head.append(sc)
 }
 
-loadSCript("https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js",callback)
+loadSCript("https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js", callback) 
