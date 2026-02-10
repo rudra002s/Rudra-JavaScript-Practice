@@ -14,11 +14,11 @@ const randomDelay = () => {
     })
 }
 let text = [
-    "Initializing hacking...",
-    "Reading your files...",
-    "Password files detected...",
-    "Sending all data and personal files to main server...",
-    "Cleaning up..."
+    "Initializing hacking",
+    "Reading your files",
+    "Password files detected",
+    "Sending all data and personal files to main server",
+    "Cleaning up"
 ]
 
 for (const item of text) {
